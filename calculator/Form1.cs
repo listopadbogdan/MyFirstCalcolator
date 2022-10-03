@@ -23,12 +23,6 @@ namespace calculator
             InitializeComponent();
         }
 
-        //private void button_Click(object sender, EventArgs e, string Key = "")
-        //{
-        //    currentResult += Key;
-        //    textBoxOutput.Text = currentResult;
-        //}
-
         private void button_Click(object sender, EventArgs e)
         {
             currentResult += (sender as Button).Text;
@@ -83,22 +77,6 @@ namespace calculator
             }
         }
 
-        //private void Form1_KeyDown(object sender, KeyEventArgs e)
-        //{
-        //    Debug.WriteLine((char)e.KeyValue);
-        //    //if ((e.KeyCode > Keys.D0 || e.KeyCode < Keys.D9)
-        //    //        || (e.KeyCode > Keys.NumPad0 || e.KeyCode < Keys.NumPad9)
-        //    //        || (e.KeyCode > Keys.Multiply || e.KeyCode < Keys.Divide))
-        //    //{ 
-        //    //    button_Click(sender, e, ((char)e.KeyCode).ToString());
-        //    //}
-            
-        //    if (e.KeyCode == Keys.Enter)
-        //    {
-        //        Debug.WriteLine("Enter");
 
-        //        buttonEquals_Click(sender, e);
-        //    }
-        //}
     }
 }
